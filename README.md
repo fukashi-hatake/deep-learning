@@ -25,3 +25,5 @@ Dropout is one of the most effective and most commonly used regularization techn
 * Reduce the capacity of the network 
 * Add weight regularization. 
 * Add dropout. 
+
+<img src="last_activation_layer_table.PNG">
