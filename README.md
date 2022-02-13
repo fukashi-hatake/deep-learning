@@ -27,3 +27,14 @@ Dropout is one of the most effective and most commonly used regularization techn
 * Add dropout. 
 
 <img src="last_activation_layer_table.PNG" width="70%" height="70%">
+
+### Chapter 5 
+The fundamental difference between a densely connected layer and a convolution layer is this: Dense layers learn global patterns in their input feature space, whereas convolution layers learn local patterns. 
+
+#### This key characteristic gives convnets two interesting properties:
+*  The patterns they learn are translation invariant. After learning a certain pattern in the lower-right corner of a picture, a convnet can recognize it anywhere: for
+example, in the upper-left corner. A densely connected network would have to learn the pattern anew if it appeared at a new location. This makes convnets data efficient when processing images (because the visual world is fundamentally translation invariant): they need fewer training samples to learn representations that have generalization power.
+* They can learn spatial hierarchies of patterns (see figure 5.2). A first convolution layer will learn small local patterns such as edges, a second convolution layer will
+learn larger patterns made of the features of the first layers, and so on. This allows convnets to efficiently learn increasingly complex and abstract visual concepts (because the visual world is fundamentally spatially hierarchical). 
+
+<img src="spatial_hierarchies.PNG" width="50%" height="50%">
