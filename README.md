@@ -26,4 +26,4 @@ Dropout is one of the most effective and most commonly used regularization techn
 * Add weight regularization. 
 * Add dropout. 
 
-<img src="last_activation_layer_table.PNG">
+<img src="last_activation_layer_table.PNG" width="70%" height="70%">
